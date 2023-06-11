@@ -19,7 +19,7 @@ ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 12px;
 }
 
 li {
