@@ -1,15 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Tab's Homepage"/>
+  <div id="app">
+    <navbar></navbar> <!-- Add the navbar component or custom navbar -->
+    <div class="container">
+      <img alt="Vue logo" src="./assets/logo.png">
+      <HelloWorld msg="Tab's Homepage"/>
+    </div>
+  </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue' // Import the navbar component or update with the correct path
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Navbar // Add the navbar component to the components section
   }
 }
 </script>
