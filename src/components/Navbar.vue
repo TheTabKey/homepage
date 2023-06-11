@@ -3,7 +3,7 @@
     <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="mailto: contact@tab.cx">Contact</a></li>
       <li><a href="https://steamcommunity.com/id/tab-">Steam</a></li>
     </ul>
   </nav>
