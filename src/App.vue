@@ -14,7 +14,7 @@
 /* eslint-disable vue/no-deprecated-destroyed-lifecycle */
 
 import HelloWorld from './components/HelloWorld.vue'
-import Navbar from './components/Navbar.vue' // Import the navbar component or update with the correct path
+import Navbar from './components/Navbar.vue'
 import BIRDS from 'vanta/dist/vanta.waves.min'
 
 export default {

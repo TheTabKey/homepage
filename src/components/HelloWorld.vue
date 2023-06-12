@@ -23,6 +23,7 @@ h1 {
 }
 h3 {
   margin: 40px 0 0;
+  color: white;
 }
 ul {
   list-style-type: none;
