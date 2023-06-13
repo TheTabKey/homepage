@@ -67,6 +67,6 @@ export default {
   text-align: center;
 }
 .vw-img {
-  width: 40vw;
+  width: 30vw;
 }
 </style>
