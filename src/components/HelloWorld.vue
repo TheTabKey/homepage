@@ -37,7 +37,7 @@ a {
   color: #42b983;
 }
 .hello {
-  text-align: center !important;
+  text-align: center;
 }
 p {
   color: white;

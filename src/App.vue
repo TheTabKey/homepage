@@ -3,8 +3,10 @@
     <div class="vanta-background" ref="vantaRef">
       <navbar></navbar>
       <div class="container">
-        <img alt="Vue logo" src="./assets/logo.png">
-        <HelloWorld msg="Tab's Homepage"/>
+        <div class="centered-content">
+          <img alt="Vue logo" src="./assets/logo.png" class="resizable-img">
+          <HelloWorld msg="Tab's Homepage"/>
+        </div>
       </div>
     </div>
     </div>
@@ -43,10 +45,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 0 !important;
-  padding-top: 0 !important;
+  margin-top: 0;
+  padding-top: 0;
 }
-
 .vanta-background {
   position: fixed;
   top: 0;
@@ -54,5 +55,18 @@ export default {
   width: 100%;
   height: 100%;
   z-index: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.centered-content {
+  text-align: center;
+}
+.resizable-img {
+  width: 50vw;
 }
 </style>
