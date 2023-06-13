@@ -13,7 +13,6 @@
 </template>
 
 <script>
-/* eslint-disable vue/no-deprecated-destroyed-lifecycle */
 
 import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/Navbar.vue'
@@ -30,7 +29,7 @@ export default {
       el: this.$refs.vantaRef
     })
   },
-  beforeDestroy() {
+  beforeUnmount() {
     if (this.vantaEffect) {
       this.vantaEffect.destroy()
     }
