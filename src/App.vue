@@ -4,7 +4,7 @@
       <navbar></navbar>
       <div class="container">
         <div class="centered-content">
-          <img alt="Vue logo" src="./assets/logo.png" class="resizable-img">
+          <img alt="Vue logo" src="./assets/logo.png" class="vw-img">
           <HelloWorld msg="Tab's Homepage"/>
         </div>
       </div>
@@ -66,7 +66,7 @@ export default {
 .centered-content {
   text-align: center;
 }
-.resizable-img {
-  width: 50vw;
+.vw-img {
+  width: 40vw;
 }
 </style>
