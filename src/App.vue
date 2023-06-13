@@ -4,7 +4,7 @@
       <navbar></navbar>
       <div class="container">
         <div class="centered-content">
-          <img alt="Vue logo" src="./assets/logo.png" class="vw-img">
+          <img alt="Vue logo" src="./assets/logo-2.png" class="vw-img">
           <HelloWorld msg="Tab's Homepage"/>
         </div>
       </div>
