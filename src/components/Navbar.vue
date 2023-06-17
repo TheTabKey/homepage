@@ -4,6 +4,7 @@
       <li><a href="#">Home</a></li>
       <li><a href="mailto: contact@tab.cx">Contact</a></li>
       <li><a href="https://steamcommunity.com/id/tab-">Steam</a></li>
+      <li><a href="https://mc.tab.cx">Minecraft</a></li>
     </ul>
   </nav>
 </template>
